@@ -8,6 +8,8 @@
 
 React Board for Bark
 
+Visit https://board.react.design.bark.sh for live storybook
+
 ## Install
 
 ```sh
