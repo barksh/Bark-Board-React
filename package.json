@@ -2,8 +2,8 @@
   "name": "@barksh/bark-board-react",
   "version": "1.0.0",
   "scripts": {
-    "dev": "start-storybook -p 6006",
-    "build": "build-storybook"
+    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider build-storybook"
   },
   "dependencies": {
     "styled-components": "^5.3.6"
