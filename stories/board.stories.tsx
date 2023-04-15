@@ -5,15 +5,15 @@
  * @override Story
  */
 
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 import { BarkBoard } from "../src";
 
 export default {
   title: "Board",
   component: BarkBoard,
-} as ComponentMeta<typeof BarkBoard>;
+} as Meta<typeof BarkBoard>;
 
-const Template: ComponentStory<typeof BarkBoard> = (args: any) => {
+const Template: StoryFn<typeof BarkBoard> = (args: any) => {
 
   return (
     <BarkBoard>
