@@ -6,7 +6,7 @@
     "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider storybook build"
   },
   "dependencies": {
-    "styled-components": "^5.3.9"
+    "styled-components": "^6.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
